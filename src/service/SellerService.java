@@ -7,6 +7,10 @@ import java.util.Scanner;
 public class SellerService {
     //Usamos scanner para poder pedirle al usuario info por pantalla
     Scanner read = new Scanner(System.in).useDelimiter("\n");
+    //Esta línea de código crea un objeto Scanner llamado read para leer la entrada del usuario desde la consola.  principales de la línea:
+    //Entonces, new Scanner(System.in) crea un Scanner que lee la entrada desde la consola.
+    //.useDelimiter("\n"):  el Scanner dividirá la entrada en tokens cada vez que encuentre un salto de línea en la entrada.
+    //En resumen, la línea de código crea un objeto Scanner que leerá la entrada desde la consola y usará el carácter de nueva línea como delimitador para dividir la entrada en tokens. Esto permite leer líneas completas de texto ingresadas por el usuario.
 
     //Este método va a retornar un objeto del tipo Seller e importamos la clase del objeto
     public Seller addSeller(){
